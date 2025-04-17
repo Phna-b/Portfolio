@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@chakra-ui/react": "^3.16.0",
+    "@emotion/styled": "^11.14.0",
+    "framer-motion": "^12.7.3",
+    "next": "^15.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "eslint-config-next": "^15.3.0",
+    "prettier": "^3.5.3"
+  }
+}
