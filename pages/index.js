@@ -4,7 +4,7 @@ import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import {BioSection, BioYear} from '../components/bio'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
+import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
 
 
 const Page = () => {
