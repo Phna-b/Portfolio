@@ -79,6 +79,10 @@ const Page = () => {
                     Nascido em Belo Horizonte, Brasil.
                 </BioSection>
                 <BioSection>
+                    <BioYear>2022</BioYear>
+                    iT.eam
+                </BioSection>
+                <BioSection>
                     <BioYear>2025</BioYear>
                     UFOP
                 </BioSection>
