@@ -45,7 +45,13 @@ const Page = () => {
 
             <Section delay={0.1}>
               <Heading as="h3" variant="section-title">Work</Heading> 
-              <Paragraph>Teste teste teste</Paragraph> 
+              <Paragraph>
+                Teste teste teste
+                exemplo de link{' '}
+                <Link as={NextLink} href="/works/link" passHref scroll={false}>
+                    Link
+                </Link>
+                </Paragraph> 
                
               <Box align="center" my={4}>
               
