@@ -1,9 +1,12 @@
-import {Container, Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
+import {Container, List, ListItem, Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import {BioSection, BioYear} from '../components/bio'
+import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
+
+
 const Page = () => {
     return (
         <Container>
@@ -80,6 +83,85 @@ const Page = () => {
                     UFOP
                 </BioSection>
             </Section>
+
+            <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          I ♥
+        </Heading>
+        <Paragraph>
+          Art, Music,{' '}
+          <Link href="https://illust.odoruinu.net/" target="_blank">
+            Drawing
+          </Link>
+          , Playing Drums,{' '}
+          <Link href="https://500px.com/p/craftzdog" target="_blank">
+            Photography
+          </Link>
+          , Leica, Machine Learning
+        </Paragraph>
+      </Section>
+
+      <Section delay={0.3}>
+        <Heading as="h3" variant="section-title">
+          On the web
+        </Heading>
+        <List>
+          <ListItem>
+            <Link href="https://github.com/phna-b" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<IoLogoGithub />}
+              >
+                @phna-b
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://www.linkedin.com/in/phnunesa/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<IoLogoLinkedin  />}
+              >
+                @phnunesa  
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://twitter.com/" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                leftIcon={<IoLogoTwitter />}
+              >
+                @bla  
+              </Button>
+            </Link>
+          </ListItem>
+        </List>
+
+        <Heading as="h3" variant="section-title">
+          Newsletter
+        </Heading>
+        <p>
+          Join me on a behind-the-scenes coding journey. Weekly updates on
+          projects, tutorials, and videos
+        </p>
+
+        <Box align="center" my={4}>
+          <Button
+            as={NextLink}
+            href="https://www.devas.life/"
+            scroll={false}
+            leftIcon={<EmailIcon />}
+            colorScheme="purple"
+          >
+            Sign up my newsletter here
+          </Button>
+        </Box>
+      </Section>
+
 
         </Container>
  
