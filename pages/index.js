@@ -3,12 +3,14 @@ import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
+import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
 import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
 
 
 const Page = () => {
     return (
+      <Layout>
         <Container>
             <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
                 Olá, sou desenvolvedor back-end e especialista em IBM MAXIMO do Brasil!
@@ -168,7 +170,7 @@ const Page = () => {
 
 
         </Container>
- 
+        </Layout>
     )
 }
 
