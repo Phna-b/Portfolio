@@ -36,10 +36,7 @@ const Navbar = props => {
             <LinkItem href="/works" path={path}>
                 Works
             </LinkItem>
-            <LinkItem href="/Posts" path={path}>
-                Posts
-            </LinkItem>
- 
+             
           <LinkItem
             target="_blank"
             href="https://github.com/phna-b"
@@ -67,9 +64,6 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
                   Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
                 </MenuItem>
                 <MenuItem as={Link} href="https://github.com/phna-b">
                   View Source
