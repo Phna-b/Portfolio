@@ -5,7 +5,7 @@ import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
-import { IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoCameraSharp   } from 'react-icons/io5'
 
 
 const Page = () => {
@@ -99,6 +99,12 @@ const Page = () => {
                 <ListItem>
                   <Link href="https://www.linkedin.com/in/phnunesa/" target="_blank">
                     <Button variant="ghost" colorScheme="purple" leftIcon={<IoLogoLinkedin  />}> @phnunesa  </Button>
+                  </Link>
+                </ListItem>
+
+                <ListItem>
+                  <Link href="https://vsco.co/pedrohna/gallery" target="_blank">
+                    <Button variant="ghost" colorScheme="purple" leftIcon={<IoCameraSharp   />}> @pedrohna  </Button>
                   </Link>
                 </ListItem>
 

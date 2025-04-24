@@ -12,10 +12,10 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Cifra de César">
+    <Layout title="Farofa">
       <Container>
         <Title>
-        Cifra de César<Badge>2025-</Badge>
+          Farofa <Badge>2025-</Badge>
         </Title>
         <P>
           Artistas para artistas
@@ -23,8 +23,8 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://github.com/Phna-b/CifraDeCesar">
-            https://github.com/Phna-b/CifraDeCesar <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.farofa.com.br/">
+            https://www.farofa.com.br/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
