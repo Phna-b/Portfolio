@@ -44,7 +44,7 @@ const Navbar = props => {
              
           <LinkItem
             target="_blank"
-            href="https://github.com/phna-b"
+            href="https://github.com/Phna-b/Portfolio"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -75,7 +75,7 @@ const Navbar = props => {
                   Certificados
                 </MenuItem>
 
-                <MenuItem as={Link} href="https://github.com/phna-b">
+                <MenuItem as={Link} href="https://github.com/Phna-b/Portfolio">
                   View Source
                 </MenuItem>
               </MenuList>
