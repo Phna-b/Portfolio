@@ -33,7 +33,7 @@ const Works = () => (
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem id="farofa" title="farofa" thumbnail={farofa8}>
-           Um site de artistas para artistas
+            de artistas para artistas
           </WorkGridItem>
         </Section>
  

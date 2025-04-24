@@ -24,7 +24,7 @@ const Page = () => {
 
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} textAlign="center">
                         <Box borderColor="whiteAlpha.800" borderWidth={4} borderStyle="solid" w="100px" h="100px" display="inline-block" borderRadius="full" overflow="hidden">
-                                <Image src="/images/Pedro2.jpg" alt="Profile image" width="100" height="100" />
+                                <Image src="/images/PedroIcon.jpg" alt="Profile image" width="100" height="010" />
                         </Box>
                  </Box>
             </Box>

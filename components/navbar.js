@@ -37,7 +37,7 @@ const Navbar = props => {
                 Works
             </LinkItem>
 
-            <LinkItem href="/certificados" path={path}>
+            <LinkItem href="https://drive.google.com/drive/folders/1Q2xtFLpE_2VWL--tzE0zodJSnzk-IOyX?usp=sharing" path={path}>
                 Certificados
             </LinkItem>
             
@@ -71,7 +71,7 @@ const Navbar = props => {
                   Works
                 </MenuItem>
 
-                <MenuItem as={MenuLink} href="/certificados">
+                <MenuItem as={MenuLink} href="https://drive.google.com/drive/folders/1Q2xtFLpE_2VWL--tzE0zodJSnzk-IOyX?usp=sharing">
                   Certificados
                 </MenuItem>
 
