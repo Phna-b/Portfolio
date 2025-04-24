@@ -5,16 +5,14 @@ import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
-import { IoLogoTwitter, IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin  } from 'react-icons/io5'
 
 
 const Page = () => {
     return (
     <Layout>
       <Container>
-            <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                Olá, sou desenvolvedor back-end e especialista em IBM MAXIMO do Brasil!
-            </Box>
+
 
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
@@ -25,13 +23,18 @@ const Page = () => {
                 </Box>
 
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} textAlign="center">
-                        <Box borderColor="whiteAlpha.800" borderWidth={4} borderStyle="solid" w="200px" h="200px" display="inline-block" borderRadius="full" overflow="hidden">
-                                <Image src="/images/Pedro2.jpg" alt="Profile image" width="200" height="200" />
+                        <Box borderColor="whiteAlpha.800" borderWidth={4} borderStyle="solid" w="100px" h="100px" display="inline-block" borderRadius="full" overflow="hidden">
+                                <Image src="/images/Pedro2.jpg" alt="Profile image" width="100" height="100" />
                         </Box>
                  </Box>
             </Box>
 
-
+            <Box   border="20px solid" borderColor="transparent" > 
+              <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+                  Olá, sou desenvolvedor back-end e especialista em IBM MAXIMO do Brasil!
+              </Box>
+            </Box>
+            
             <Section delay={0.1}>
               <Heading as="h3" variant="section-title">Work</Heading> 
               <Paragraph>
@@ -53,15 +56,21 @@ const Page = () => {
                 </Heading>
 
                 <BioSection>
-                    <BioYear>2001</BioYear> Nascido em Belo Horizonte, Brasil.
+                    <BioYear>2001</BioYear>Nascido em Belo Horizonte, Brasil.
                 </BioSection>
 
                 <BioSection>
-                    <BioYear>2022</BioYear> iT.eam
+                    <BioYear>2019 até o presente</BioYear> UFOP
                 </BioSection>
 
                 <BioSection>
-                    <BioYear>2025</BioYear> UFOP
+                    <BioYear>2022 - 2023</BioYear>Estágiario - iT.eam
+                </BioSection>
+                <BioSection>
+                    <BioYear>2023 - 2024</BioYear>Consultor Júnior - iT.eam
+                </BioSection>
+                <BioSection>
+                    <BioYear>2024 até o presente</BioYear>Consultor Pleno - iT.eam
                 </BioSection>
 
             </Section>
@@ -100,26 +109,17 @@ const Page = () => {
                   </Link>
                 </ListItem>
 
-                <ListItem>
-                  <Link href="https://twitter.com/" target="_blank">
-                    <Button variant="ghost" colorScheme="purple" leftIcon={<IoLogoTwitter />}> @bla  </Button>
-                  </Link>
-                </ListItem>
-
               </List>
 
               <Heading as="h3" variant="section-title">
-                Newsletter
+                Contato
               </Heading>
               <p>
-                Join me on a behind-the-scenes coding journey. Weekly updates on
-                projects, tutorials, and videos
+                Caso tenha interesse em me contat
               </p>
 
               <Box align="center" my={4}>
-                <Button as={NextLink} href="https://www.devas.life/" scroll={false} leftIcon={<EmailIcon />} colorScheme="purple">
-                  Entre em contato
-                </Button>
+                <Button as={NextLink} href="mailto:pedrohndea@gmail.com" scroll={false} colorScheme="purple"> <EmailIcon /></Button> 
               </Box>
             </Section>
 
