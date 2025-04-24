@@ -12,33 +12,33 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Work = () => (
-    <Layout title="Cifra de César">
+    <Layout title="farofa">
       <Container>
         <Title>
-        Cifra de César<Badge>2025-</Badge>
+          farofa <Badge>2025-</Badge>
         </Title>
         <P>
-          Artistas para artistas
+          artistas para artistas
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://github.com/Phna-b/CifraDeCesar">
-            https://github.com/Phna-b/CifraDeCesar <ExternalLinkIcon mx="2px" />
+            <Link href="https://lojafarofa.com.br/">
+            https://lojafarofa.com.br/ <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/iOS/Android</span>
+            <span>Web</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>   Haskell  </span>
+            <span>   HTML, CSS, JavaScript </span>
           </ListItem>
  
         </List>
   
-        <WorkImage src="/images/JC.jpg" alt="JulioCesar" />
+        <WorkImage maxW="400px" maxH="400px" src="/images/farofaPost.png" alt="farofa" />
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
             src="https://www.youtube.com/embed/Rpz9IQl6GJ0?si=C5ssvqEIyMlMGFli"

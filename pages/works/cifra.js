@@ -10,21 +10,23 @@ import {
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
-  
+  import CodeBlock, { cifraHaskell } from '../../components/codeBlock'
+ 
   const Work = () => (
-    <Layout title="Farofa">
+    
+    <Layout title="Cifra de César">
       <Container>
         <Title>
-          Farofa <Badge>2025-</Badge>
+        Cifra de César<Badge>2025</Badge>
         </Title>
         <P>
-          Artistas para artistas
+        A Cifra de César é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.
         </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
-            <Link href="https://www.farofa.com.br/">
-            https://www.farofa.com.br/ <ExternalLinkIcon mx="2px" />
+            <Link href="https://github.com/Phna-b/CifraDeCesar">
+            https://github.com/Phna-b/CifraDeCesar <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -35,10 +37,15 @@ import {
             <Meta>Stack</Meta>
             <span>   Haskell  </span>
           </ListItem>
- 
+
+          
+      
+     
+         
         </List>
-  
+
         <WorkImage src="/images/JC.jpg" alt="JulioCesar" />
+        <CodeBlock title="Implementação em Haskell" code={cifraHaskell} />
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
             src="https://www.youtube.com/embed/Rpz9IQl6GJ0?si=C5ssvqEIyMlMGFli"
@@ -48,7 +55,9 @@ import {
           ></iframe>
         </AspectRatio>
       </Container>
+      
     </Layout>
+    
   )
   
   export default Work

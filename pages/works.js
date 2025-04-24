@@ -2,7 +2,7 @@ import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
-import farofa from '../public/images/1.png'
+import iconJC from '../public/images/iconJC.jpg'
 import farofa8 from '../public/images/8.png'
 const Works = () => (
   <Layout title="Works">
@@ -13,10 +13,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="farofa" title="farofa" thumbnail={farofa}>
-           Um site de artistas para artistas
+          <WorkGridItem id="cifra" title="Cifra de César" thumbnail={iconJC}>
+            Técnicas de criptografia implementada em Haskell.
           </WorkGridItem>
         </Section>
+
+        
  
       </SimpleGrid>
 
@@ -30,7 +32,7 @@ const Works = () => (
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="farofa1" title="farofa" thumbnail={farofa8}>
+          <WorkGridItem id="farofa" title="farofa" thumbnail={farofa8}>
            Um site de artistas para artistas
           </WorkGridItem>
         </Section>
