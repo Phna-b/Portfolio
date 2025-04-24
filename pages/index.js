@@ -38,8 +38,8 @@ const Page = () => {
             <Section delay={0.1}>
               <Heading as="h3" variant="section-title">Work</Heading> 
               <Paragraph>
-                Teste teste teste
-                exemplo de link{' '} <Link as={NextLink} href="/works/link" passHref scroll={false}>Link</Link>
+              Atuo como consultor IBM Maximo em Belo Horizonte - MG, e estou finalizando minha graduação em Sistemas de Informação pela Universidade Federal de Ouro Preto. Resolver problemas e desvendar desafios é algo que realmente me motiva — é isso que me faz evoluir constantemente.
+              No meu portfólio, você vai encontrar projetos tanto na área de desenvolvimento de software quanto em manutenção de hardware.
               </Paragraph> 
                
               <Box align="center" my={4}>
@@ -60,7 +60,7 @@ const Page = () => {
                 </BioSection>
 
                 <BioSection>
-                    <BioYear>2019 até o presente</BioYear> UFOP
+                    <BioYear>2019 até o presente</BioYear>Sistemas de Informação - UFOP
                 </BioSection>
 
                 <BioSection>
@@ -80,20 +80,13 @@ const Page = () => {
                 Interesses pessoais
               </Heading>
               <Paragraph>
-                Art, Music,{' '}
-                <Link href="https://illust.odoruinu.net/" target="_blank">
-                  Drawing
-                </Link>
-                , Playing Drums,{' '}
-                <Link href="https://500px.com/p/craftzdog" target="_blank">
-                  Photography
-                </Link>
-                , Leica, Machine Learning
+                Consertar aparelhos eletrônicos, treinos de força, futebol americano, artes marciais e de vez em quando umas{' '}
+                <Link href="https://vsco.co/pedrohna/gallery" target="_blank">foticas</Link>
               </Paragraph>
             </Section>
 
             <Section delay={0.3}>
-              <Heading as="h3" variant="section-title"> On the web </Heading>
+              <Heading as="h3" variant="section-title"> Redes </Heading>
 
               <List>
 
@@ -110,19 +103,24 @@ const Page = () => {
                 </ListItem>
 
               </List>
+            </Section>
+
+            <Section delay={0.3}>
 
               <Heading as="h3" variant="section-title">
                 Contato
               </Heading>
-              <p>
-                Caso tenha interesse em me contat
-              </p>
+
+              <Paragraph>
+                Se você tem uma ideia, um projeto em mente ou tem interesse em discutir sobre soluções técnicas ou parcerias acadêmicas,
+                fico à diposição. Entre em contato para colaborações, consultorias, propostas de pesquisa ou apenas para trocar conhecimento!
+              </Paragraph>
 
               <Box align="center" my={4}>
-                <Button as={NextLink} href="mailto:pedrohndea@gmail.com" scroll={false} colorScheme="purple"> <EmailIcon /></Button> 
+                <Button as={NextLink} href="mailto:phna8589@gmail.com" scroll={false} colorScheme="purple"> <EmailIcon /></Button> 
               </Box>
-            </Section>
 
+            </Section>
 
     </Container>
   </Layout>
