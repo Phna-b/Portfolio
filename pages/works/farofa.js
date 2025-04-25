@@ -32,14 +32,7 @@ import { Container, Badge, Link, List, ListItem, AspectRatio} from '@chakra-ui/r
         </List>
   
         <WorkImage maxW="400px" maxH="400px" src="/images/farofaPost.png" alt="farofa" />
-        <AspectRatio maxW="640px" ratio={1.7} my={4}>
-          <iframe
-            src="https://www.youtube.com/embed/Rpz9IQl6GJ0?si=C5ssvqEIyMlMGFli"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </AspectRatio>
+ 
       </Container>
     </Layout>
   )
