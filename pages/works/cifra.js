@@ -1,4 +1,4 @@
-import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/react'
+import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
@@ -39,14 +39,6 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
 
         <WorkImage src="/images/JC.jpg" alt="JulioCesar" />
         <CodeBlock title="Implementação em Haskell" code={cifraHaskell} />
-        <AspectRatio maxW="640px" ratio={1.7} my={4}>
-          <iframe
-            src="https://www.youtube.com/embed/Rpz9IQl6GJ0?si=C5ssvqEIyMlMGFli"
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </AspectRatio>
       </Container>
       
     </Layout>
