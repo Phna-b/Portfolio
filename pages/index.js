@@ -56,7 +56,7 @@ const Page = () => {
                 </Heading>
 
                 <BioSection>
-                    <BioYear>2001</BioYear>Nascido em Belo Horizonte, Brasil.
+                    <BioYear>2001</BioYear>Nascido em Belo Horizonte/MG, Brasil.
                 </BioSection>
 
                 <BioSection>
