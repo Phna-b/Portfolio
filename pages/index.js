@@ -81,7 +81,7 @@ const Page = () => {
               </Heading>
               <Paragraph>
                 Consertar aparelhos eletrônicos, treinos de força, futebol americano, artes marciais e de vez em quando algumas{' '}
-                <Link href="https://vsco.co/pedrohna/gallery" target="_blank">fotos</Link>
+                <Link href="https://vsco.co/pedrohna/gallery" target="_blank">fotos</Link>.
               </Paragraph>
             </Section>
 
