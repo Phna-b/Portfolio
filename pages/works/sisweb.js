@@ -3,7 +3,6 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
-  import CodeBlock, { cifraHaskell } from '../../components/codeBlock'
  
   const Work = () => (
     
@@ -30,7 +29,7 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
             <span>   Python, Flask, SQLAlchemy, JavaScript, HTML, CSS  </span>
           </ListItem>
         </List>
-        
+
         <WorkImage src="/images/siswebPreview.png" alt="SISWEB" />
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
