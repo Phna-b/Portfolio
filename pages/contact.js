@@ -7,12 +7,6 @@ import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
 import { IoLogoGithub, IoLogoLinkedin, IoCameraSharp   } from 'react-icons/io5'
 
-fetch('/location.json')
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById('current-location').innerHTML = 
-      `Atualmente estou em: ${data.city}, ${data.country}`;
-  });
 
 
 const Contact = () => {
@@ -28,7 +22,7 @@ const Contact = () => {
                     </Heading>
                     <p> Consultor IBM MAXIMO / Desenvolvedor / Graduando em Sistemas de Informação </p>
 
-                    <p id="current-location">Carregando localização...</p>
+       
                 </Box>
 
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} textAlign="center">
