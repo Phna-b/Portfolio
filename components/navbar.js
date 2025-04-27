@@ -41,7 +41,9 @@ const Navbar = props => {
                 Certificados
             </LinkItem>
             
-             
+            <LinkItem href="/contact" path={path}>
+                Contato
+            </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/Phna-b/Portfolio"

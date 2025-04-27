@@ -15,7 +15,7 @@ fetch('/location.json')
   });
 
 
-const Page = () => {
+const Contact = () => {
     return (
     <Layout>
       <Container>
@@ -142,4 +142,4 @@ const Page = () => {
   )
 }
 
-export default Page 
+export default Contact 
