@@ -1,4 +1,4 @@
-import {Container, List, ListItem, Box, Heading,Link, Button} from '@chakra-ui/react'
+import {Container, List, ListItem, Box, Heading,Link,useColorModeValue, Button} from '@chakra-ui/react'
 import { EmailIcon } from '@chakra-ui/icons'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
@@ -13,9 +13,14 @@ const Contact = () => {
       <Container>
 
       <Section delay={0.3}>
-            <Location></Location>
-              <Heading as="h3" variant="section-title"> Redes </Heading>
             
+            <Box border="20px solid" borderColor="transparent" > 
+              <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
+                  <Location></Location>
+              </Box>
+            </Box>
+              <Heading as="h3" variant="section-title"> Redes </Heading>
+
               <List>
 
                 <ListItem>
@@ -37,6 +42,7 @@ const Contact = () => {
                 </ListItem>
 
               </List>
+
             </Section>
 
             <Section delay={0.3} >

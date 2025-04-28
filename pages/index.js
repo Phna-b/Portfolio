@@ -1,13 +1,9 @@
-import {Container, List, ListItem, Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
+import {Container,   Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
-import Location from '../components/location'
-
- 
-
 
 const Page = () => {
     return (
