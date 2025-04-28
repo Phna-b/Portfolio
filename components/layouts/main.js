@@ -4,7 +4,7 @@ import Navbar from '../navbar'
 
 const Main = ({children, router}) => {
     return(
-        <Box as="main" pb={8}>
+        <Box as="main" pb={8}  >
             <Head>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Pedro Nunes - Homepage</title>
@@ -17,7 +17,7 @@ const Main = ({children, router}) => {
                 {children}
             </Container>
 
-            <Box align="center" opacity={0.4} fontSize="sm">
+            <Box align="center" opacity={0.4} fontSize="sm" >
                 &copy; {new Date().getFullYear()} All Rights Reserved.
             </Box>
         </Box>

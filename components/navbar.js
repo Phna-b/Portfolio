@@ -72,6 +72,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/works">
                   Works
                 </MenuItem>
+                <MenuItem as={MenuLink} href="/contact">
+                  Contato
+                </MenuItem>
 
                 <MenuItem as={MenuLink} href="https://drive.google.com/drive/folders/1Q2xtFLpE_2VWL--tzE0zodJSnzk-IOyX?usp=sharing">
                   Certificados
