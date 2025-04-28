@@ -23,7 +23,7 @@ import { Container, Badge, Link, List, ListItem } from '@chakra-ui/react'
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Platform</Meta>
+            <Meta>Platforma</Meta>
             <span>Windows/macOS/Linux/iOS/Android</span>
           </ListItem>
           <ListItem>

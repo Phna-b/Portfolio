@@ -41,7 +41,9 @@ const Navbar = props => {
                 Certificados
             </LinkItem>
             
-             
+            <LinkItem href="/contact" path={path}>
+                Contato
+            </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/Phna-b/Portfolio"
@@ -69,6 +71,9 @@ const Navbar = props => {
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/works">
                   Works
+                </MenuItem>
+                <MenuItem as={MenuLink} href="/contact">
+                  Contato
                 </MenuItem>
 
                 <MenuItem as={MenuLink} href="https://drive.google.com/drive/folders/1Q2xtFLpE_2VWL--tzE0zodJSnzk-IOyX?usp=sharing">
