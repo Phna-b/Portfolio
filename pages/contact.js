@@ -5,7 +5,7 @@ import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import { IoLogoGithub, IoLogoLinkedin, IoCameraSharp   } from 'react-icons/io5'
-
+import Location from '../components/location'
 
 const Contact = () => {
     return (
@@ -13,8 +13,9 @@ const Contact = () => {
       <Container>
 
       <Section delay={0.3}>
+            <Location></Location>
               <Heading as="h3" variant="section-title"> Redes </Heading>
-
+            
               <List>
 
                 <ListItem>

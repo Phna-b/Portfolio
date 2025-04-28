@@ -21,7 +21,7 @@ import { Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Platform</Meta>
+            <Meta>Platforma</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>

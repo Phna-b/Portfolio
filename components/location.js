@@ -14,7 +14,7 @@ const Location = () => {
   return (
         <p>
           {location.city
-            ? `Atualmente estou em: ${location.city} - ${location.state}, ${location.country}`
+            ? `Atualmente em ${location.city} - ${location.state}, ${location.country}`
             : 'Carregando localização...'}
         </p>
   );

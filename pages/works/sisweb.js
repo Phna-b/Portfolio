@@ -21,7 +21,7 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Platform</Meta>
+            <Meta>Platforma</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>
