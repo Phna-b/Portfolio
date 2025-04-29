@@ -1,13 +1,9 @@
 import { useEffect, useState } from 'react';
 import { IoLocation } from "react-icons/io5";
  
-
- 
-    
 const Location = () => {
   const [location, setLocation] = useState({ city: '', state: '', country: ''});
  
-
   useEffect(() => {
     fetch('/location.json')
       .then(response => response.json())

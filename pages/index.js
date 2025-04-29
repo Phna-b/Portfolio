@@ -13,8 +13,6 @@ const Page = () => {
     <Layout>
       <Container>
                   
- 
-
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-tittle">
