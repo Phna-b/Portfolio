@@ -7,9 +7,6 @@ import farofa8 from '../public/images/8.png'
 import tpthumb from '../public/images/tpThumb.png'
 import { useTranslation } from 'react-i18next';
 
-
-
-  
 const Works = () => {
   const { t } = useTranslation();
   return(

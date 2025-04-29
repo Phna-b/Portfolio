@@ -22,8 +22,13 @@
     "colaboracoes":"Collaborations",
     "sisweb":"Workout control",
     "siswebDescricao":"Web system developed to allow control of physical exercises performed and provide dashboards based on usage.",
+    "siswebDescricaoCompleta":"The web application was developed with the aim of enabling the collection of information from workouts performed and providing customized dashboards. With the help of professional monitoring, it is possible to use the app's information to create new workout plans, thus complementing the user's profile information and obtaining a more targeted approach based on their development.",
     "cifra":"Caesar cipher",
     "cifraDescricao":"Cryptography techniques implemented in Haskell.",
-    "farofa":"by artists for artists"
+    "cifraDescricaoCompleta":"The Caesar Cipher is one of the simplest and most well-known cryptographic techniques. It is a type of substitution cipher in which each letter of the text is replaced by another letter that appears a fixed number of positions below it in the alphabet.",
+    "haskell":"Implementation in Haskell",
+    "farofa":"by artists for artists",
+    "plataforma":"Platform"
+
 }
   

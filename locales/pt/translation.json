@@ -22,9 +22,13 @@
     "colaboracoes":"Colaborações",
     "sisweb":"Controle de exercicíos",
     "siswebDescricao":"Sistema web desenvolvido para permitir o controle dos exercicíos físicos realizados e fornecendo dashboards com base no uso.",
+    "siswebDescricaoCompleta":"A aplicação web foi desenvolvida com o intuito de possibilitar a coleta de informação dos treinos realizados e retornar dashboards customizados. Com o auxilio de acompanhamento profissional é possível a utilização das informações do aplicativo para desenvolvimento de novas fichas, assim complementando as informações de perfil do usuário e obtendo uma abordagem ainda mais direcionada com base no desenvolvimento.",
     "cifra":"Cifra de César",
     "cifraDescricao":"Técnicas de criptografia implementada em Haskell.",
-    "farofa":"de artistas para artistas"
+    "cifraDescricaoCompleta":"A Cifra de César é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.",
+    "haskell":"Implementação em Haskell",
+    "farofa":"de artistas para artistas",
+    "plataforma":"Plataforma"
 }
 
 
