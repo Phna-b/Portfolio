@@ -1,9 +1,7 @@
 import { Button, HStack } from '@chakra-ui/react';
-import { useTranslation } from 'react-i18next';
 import i18n from './i18n';
 
 export default function LanguageSwitcher() {
-  const { i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
