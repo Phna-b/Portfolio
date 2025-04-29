@@ -10,11 +10,11 @@ export default function LanguageSwitcher() {
   };
 
   return (
-    <HStack spacing={4}>
-      <Button onClick={() => changeLanguage('en')} colorScheme="teal" size="sm">
+    <HStack spacing={4}  borderRight="20px solid" borderColor="transparent"  >
+      <Button onClick={() => changeLanguage('en')} colorScheme="teal" size="xs">
         English
       </Button>
-      <Button onClick={() => changeLanguage('pt')} colorScheme="purple" size="sm">
+      <Button onClick={() => changeLanguage('pt')} colorScheme="purple" size="xs">
         Português
       </Button>
     </HStack>

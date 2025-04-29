@@ -1,8 +1,12 @@
 import { useEffect, useState } from 'react';
+import { IoLocation } from "react-icons/io5";
  
 
+ 
+    
 const Location = () => {
   const [location, setLocation] = useState({ city: '', state: '', country: ''});
+ 
 
   useEffect(() => {
     fetch('/location.json')
@@ -13,8 +17,9 @@ const Location = () => {
 
   return (
         <p>
+          <IoLocation />
           {location.city
-            ? `Atualmente em ${location.city} - ${location.state}, ${location.country}`
+            ? `${location.city} - ${location.state}, ${location.country}`
             : 'Carregando localização...'}
         </p>
   );

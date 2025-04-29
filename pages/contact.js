@@ -6,8 +6,10 @@ import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import { IoLogoGithub, IoLogoLinkedin, IoCameraSharp   } from 'react-icons/io5'
 import Location from '../components/location'
+import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
+    const { t } = useTranslation();
     return (
     <Layout>
       <Container>
@@ -19,7 +21,7 @@ const Contact = () => {
                   <Location></Location>
               </Box>
             </Box>
-              <Heading as="h3" variant="section-title"> Redes </Heading>
+              <Heading as="h3" variant="section-title"> {t('redes')} </Heading>
 
               <List>
 
@@ -48,12 +50,11 @@ const Contact = () => {
             <Section delay={0.3} >
 
               <Heading as="h3" variant="section-title">
-                Contato
+              {t('contato')}
               </Heading>
 
               <Paragraph>
-                Se você tem uma ideia, um projeto em mente ou tem interesse em discutir sobre soluções técnicas ou parcerias acadêmicas,
-                fico à diposição. Entre em contato para colaborações, consultorias, propostas de pesquisa ou apenas para trocar conhecimento!
+                {t('contatoDescricao')}
               </Paragraph>
 
               <Box align="center" my={4}>

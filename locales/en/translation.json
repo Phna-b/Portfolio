@@ -1,6 +1,29 @@
 {
-    "pd": "Welcome!",
-    "description": "This is a multi-language site.",
-    "cintol":"Open"
-  }
+    "inicio":"Home",
+    "trabalho":"Works",
+    "redes":"Social Media",
+    "contato":"Contact",
+    "certificado":"Certificates",
+    "fonte":"Source",
+    "titulo":"IBM MAXIMO Consultant / Developer / Information Systems Undergraduate",
+    "apresentacao":"Hello, I am a back-end developer and IBM MAXIMO specialist from Brazil!",
+    "resumoTrabalho":"I work as an IBM Maximo consultant in Belo Horizonte - MG, and I am finishing my degree in Information Systems at the Federal University of Ouro Preto. Solving problems and uncovering challenges is something that truly motivates me — it’s what drives my constant evolution. In my portfolio, you will find projects in both software development and hardware maintenance.",
+    "meuPorfolio":"My portifolio",
+    "contatoDescricao": "If you have an idea, a project in mind, or are interested in discussing technical solutions or academic partnerships, just send me a message. Feel free to reach out for collaborations, consultations, research proposals, or simply to exchange knowledge!",
+    "atePresente": "to present",
+    "nascidoEm": "Born in",
+    "curso": "Information Systems",
+    "cargo1": "Intern",
+    "cargo2": "Junior Consultant",
+    "cargo3": "Mid-level Consultant",
+    "interesses":"Personal interests",
+    "interessesDescricao":"Fixing electronic devices, strength training, football, martial arts, and occasionally some",
+    "fotos":"photos",
+    "colaboracoes":"Collaborations",
+    "sisweb":"Workout control",
+    "siswebDescricao":"Web system developed to allow control of physical exercises performed and provide dashboards based on usage.",
+    "cifra":"Caesar cipher",
+    "cifraDescricao":"Cryptography techniques implemented in Haskell.",
+    "farofa":"by artists for artists"
+}
   
