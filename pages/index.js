@@ -1,14 +1,22 @@
-import {Container,   Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
+import {Container,   Box, Heading, Image, useColorModeValue, Link, Button, Text} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
 
+import { useTranslation } from 'react-i18next';
+
+
 const Page = () => {
+  const { t } = useTranslation();
     return (
     <Layout>
       <Container>
+                  
+                  <Heading mb={4}>{t('pd')}</Heading>
+                  <Text mb={8}>{t('description')}</Text>
+                  <p>{t('cintol')}</p>
 
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
