@@ -1,0 +1,35 @@
+{
+    "inicio":"Início",
+    "trabalho":"Trabalhos",
+    "redes":"Redes",
+    "contato":"Contato",
+    "certificado":"Certificados",
+    "fonte":"Fonte",
+    "titulo":"Consultor IBM MAXIMO / Desenvolvedor / Graduando em Sistemas de Informação",
+    "apresentacao":"Olá, sou desenvolvedor back-end e especialista em IBM MAXIMO do Brasil!",
+    "resumoTrabalho":"Atuo como consultor IBM Maximo em Belo Horizonte - MG, e estou finalizando minha graduação em Sistemas de Informação pela Universidade Federal de Ouro Preto. Resolver problemas e desvendar desafios é algo que realmente me motiva — é isso que me faz evoluir constantemente. No meu portfólio, você vai encontrar projetos tanto na área de desenvolvimento de software quanto em manutenção de hardware.",
+    "meuPorfolio":"Meu portfólio",
+    "contatoDescricao":"Se você tem uma ideia, um projeto em mente ou tem interesse em discutir sobre soluções técnicas ou parcerias acadêmicas, fico à diposição. Entre em contato para colaborações, consultorias, propostas de pesquisa ou apenas para trocar conhecimento!",
+    "atePresente":"até o presente",
+    "nascidoEm":"Nascido em",
+    "curso":"Sistemas de Informação",
+    "cargo1":"Estágiario",
+    "cargo2":"Consultor Júnior",
+    "cargo3":"Consultor Pleno",
+    "interesses":"Interesses pessoais",
+    "interessesDescricao":"Consertar aparelhos eletrônicos, treinos de força, futebol americano, artes marciais e de vez em quando algumas",
+    "fotos":"fotos",
+    "colaboracoes":"Colaborações",
+    "sisweb":"Controle de exercicíos",
+    "siswebDescricao":"Sistema web desenvolvido para permitir o controle dos exercicíos físicos realizados e fornecendo dashboards com base no uso.",
+    "siswebDescricaoCompleta":"A aplicação web foi desenvolvida com o intuito de possibilitar a coleta de informação dos treinos realizados e retornar dashboards customizados. Com o auxilio de acompanhamento profissional é possível a utilização das informações do aplicativo para desenvolvimento de novas fichas, assim complementando as informações de perfil do usuário e obtendo uma abordagem ainda mais direcionada com base no desenvolvimento.",
+    "cifra":"Cifra de César",
+    "cifraDescricao":"Técnicas de criptografia implementada em Haskell.",
+    "cifraDescricaoCompleta":"A Cifra de César é uma das mais simples e conhecidas técnicas de criptografia. É um tipo de cifra de substituição na qual cada letra do texto é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes.",
+    "haskell":"Implementação em Haskell",
+    "farofa":"de artistas para artistas",
+    "plataforma":"Plataforma"
+}
+
+
+  

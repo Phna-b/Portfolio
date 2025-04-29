@@ -3,16 +3,17 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
+  import { useTranslation } from 'react-i18next';
  
-  const Work = () => (
-    
+  const Work = () => {
+    const { t } = useTranslation();
+    return(
     <Layout title="Controle de exercicíos">
       <Container>
         <Title>
-        Controle de exercicíos<Badge>2025</Badge>
+        {t('sisweb')}<Badge>2025</Badge>
         </Title>
-        <P>
-        A aplicação web foi desenvolvida com o intuito de possibilitar a coleta de informação dos treinos realizados e retornar dashboards customizados. Com o auxilio de acompanhamento profissional é possível a utilização das informações do aplicativo para desenvolvimento de novas fichas, assim complementando as informações de perfil do usuário e obtendo uma abordagem ainda mais direcionada com base no desenvolvimento.        </P>
+        <P> {t('siswebDescricaoCompleta')} </P>
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Website</Meta>
@@ -21,7 +22,7 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Platforma</Meta>
+            <Meta>{t('plataforma')}</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>
@@ -44,6 +45,7 @@ import { Container, Badge, Link, List, ListItem, AspectRatio } from '@chakra-ui/
     </Layout>
     
   )
+}
   
   export default Work
  

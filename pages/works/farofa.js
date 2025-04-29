@@ -3,15 +3,18 @@ import { Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
   import { Title, WorkImage, Meta } from '../../components/work'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
-  
-  const Work = () => (
+  import { useTranslation } from 'react-i18next';
+
+  const Work = () => {
+    const { t } = useTranslation();
+    return (
     <Layout title="farofa">
       <Container>
         <Title>
           farofa <Badge>2025-</Badge>
         </Title>
         <P>
-          artistas para artistas
+          {t('farofa')}
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -21,7 +24,7 @@ import { Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Platforma</Meta>
+            <Meta>{t('plataforma')}</Meta>
             <span>Web</span>
           </ListItem>
           <ListItem>
@@ -36,6 +39,6 @@ import { Container, Badge, Link, List, ListItem} from '@chakra-ui/react'
       </Container>
     </Layout>
   )
-  
+}
   export default Work
  

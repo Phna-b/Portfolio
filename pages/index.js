@@ -1,21 +1,24 @@
-import {Container,   Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
+import {Container,   Box, Heading, Image, useColorModeValue, Link, Button, Text} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'
 import Layout from '../components/layouts/article'
 import {BioSection, BioYear} from '../components/bio'
+import { useTranslation } from 'react-i18next';
+
 
 const Page = () => {
+  const { t } = useTranslation();
     return (
     <Layout>
       <Container>
-
+                  
             <Box display={{md:'flex'}}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-tittle">
                     Pedro Nunes
                     </Heading>
-                    <p> Consultor IBM MAXIMO / Desenvolvedor / Graduando em Sistemas de Informação </p>
+                    <p>{t('titulo')}</p>
                 </Box>
 
                 <Box flexShrink={0} mt={{ base: 4, md: 0 }} ml={{ md: 6 }} textAlign="center">
@@ -27,20 +30,19 @@ const Page = () => {
 
             <Box   border="20px solid" borderColor="transparent" > 
               <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                  Olá, sou desenvolvedor back-end e especialista em IBM MAXIMO do Brasil!
+                  {t('apresentacao')}
               </Box>
             </Box>
  
             <Section delay={0.1}>
-              <Heading as="h3" variant="section-title">Work</Heading> 
+              <Heading as="h3" variant="section-title"> {t('trabalho')}</Heading> 
               <Paragraph>
-              Atuo como consultor IBM Maximo em Belo Horizonte - MG, e estou finalizando minha graduação em Sistemas de Informação pela Universidade Federal de Ouro Preto. Resolver problemas e desvendar desafios é algo que realmente me motiva — é isso que me faz evoluir constantemente.
-              No meu portfólio, você vai encontrar projetos tanto na área de desenvolvimento de software quanto em manutenção de hardware.
+              {t('resumoTrabalho')}
               </Paragraph> 
                
               <Box align="center" my={4}>
                     <Button as={NextLink} href="/works" scroll={false}  colorScheme="purple" align="center">
-                        Meu portfolio
+                      {t('meuPorfolio')}
                     </Button>
               </Box>
             </Section>
@@ -52,32 +54,32 @@ const Page = () => {
                 </Heading>
 
                 <BioSection>
-                    <BioYear>2001</BioYear>Nascido em Belo Horizonte/MG, Brasil.
+                    <BioYear>2001</BioYear>{t('nascidoEm')} Belo Horizonte/MG, Brasil.
                 </BioSection>
 
                 <BioSection>
-                    <BioYear>2019 até o presente</BioYear>Sistemas de Informação - UFOP
+                    <BioYear>2019 {t('atePresente')}</BioYear>{t('curso')} - UFOP
                 </BioSection>
 
                 <BioSection>
-                    <BioYear>2022 - 2023</BioYear>Estágiario - iT.eam
+                    <BioYear>2022 - 2023</BioYear>{t('cargo1')} - iT.eam
                 </BioSection>
                 <BioSection>
-                    <BioYear>2023 - 2024</BioYear>Consultor Júnior - iT.eam
+                    <BioYear>2023 - 2024</BioYear>{t('cargo2')} - iT.eam
                 </BioSection>
                 <BioSection>
-                    <BioYear>2024 até o presente</BioYear>Consultor Pleno - iT.eam
+                    <BioYear>2024 {t('atePresente')}</BioYear>{t('cargo3')} - iT.eam
                 </BioSection>
 
             </Section>
 
             <Section delay={0.3}>
               <Heading as="h3" variant="section-title">
-                Interesses pessoais
+                {t('interesses')}
               </Heading>
               <Paragraph>
-                Consertar aparelhos eletrônicos, treinos de força, futebol americano, artes marciais e de vez em quando algumas{' '}
-                <Link href="https://vsco.co/pedrohna/gallery" target="_blank">fotos</Link>.
+                {t('interessesDescricao')}{' '}
+                <Link href="https://vsco.co/pedrohna/gallery" target="_blank">{t('fotos')}</Link>.
               </Paragraph>
             </Section>
 
