@@ -1,4 +1,4 @@
-import {Container,   Box, Heading, Image, useColorModeValue, Link, Button, Text} from '@chakra-ui/react'
+import {Container,   Box, Heading, Image, useColorModeValue, Link, Button} from '@chakra-ui/react'
 import Section from '../components/section'
 import Paragraph from '../components/paragraph'
 import NextLink from 'next/link'

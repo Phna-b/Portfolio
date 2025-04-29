@@ -15,7 +15,6 @@ export default function LanguageSwitcher() {
       <Button onClick={() => changeLanguage('en')} colorScheme="teal" size="xs">
         English
       </Button>
-
     </HStack>
   );
 }
