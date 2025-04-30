@@ -62,13 +62,13 @@ const Page = () => {
                 </BioSection>
 
                 <BioSection>
-                    <BioYear>2022 - 2023</BioYear>{t('cargo1')} - iT.eam
+                    <BioYear>2022</BioYear>{t('cargo1')} - iT.eam
                 </BioSection>
                 <BioSection>
-                    <BioYear>2023 - 2024</BioYear>{t('cargo2')} - iT.eam
+                    <BioYear>2022 - 2023</BioYear>{t('cargo2')} - iT.eam
                 </BioSection>
                 <BioSection>
-                    <BioYear>2024 {t('atePresente')}</BioYear>{t('cargo3')} - iT.eam
+                    <BioYear>2023 {t('atePresente')}</BioYear>{t('cargo3')} - iT.eam
                 </BioSection>
 
             </Section>
