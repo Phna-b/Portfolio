@@ -1,6 +1,6 @@
 # Pedro's Homepage
 
-[https://portfolio1-bice-mu.vercel.app/](https://portfolio1-bice-mu.vercel.app/)
+[phna-b.com.br](phna-b.com.br)
 
 ## Stack
 
